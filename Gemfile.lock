@@ -94,6 +94,7 @@ GEM
     ffi (1.9.13)
     formatador (0.2.5)
     gherkin (4.0.0)
+    git-browse-remote (0.2.0)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     guard (2.14.0)
@@ -269,6 +270,7 @@ DEPENDENCIES
   coffee-rails (~> 4.1.0)
   factory_girl_rails
   faker
+  git-browse-remote
   guard-bundler
   guard-rspec (~> 4.7, >= 4.7.2)
   guard-rubocop

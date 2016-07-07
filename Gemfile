@@ -35,6 +35,9 @@ gem 'shoulda-matchers'
 gem 'launchy'
 gem 'quiet_assets'
 
+# gem to open github from command line
+gem 'git-browse-remote'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
