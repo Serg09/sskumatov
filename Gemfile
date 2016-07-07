@@ -23,6 +23,21 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# sskumatov
+gem 'aruba'
+gem 'guard-rubocop'
+gem 'guard-rspec', '~> 4.7', '>= 4.7.2'
+gem 'guard-bundler'
+gem 'factory_girl_rails'
+gem 'capybara'
+gem 'faker'
+gem 'shoulda-matchers'
+gem 'launchy'
+gem 'quiet_assets'
+
+# gem to open github from command line
+gem 'git-browse-remote'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
