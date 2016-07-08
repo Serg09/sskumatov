@@ -26,14 +26,18 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # sskumatov
 gem 'aruba'
 gem 'guard-rubocop'
-gem 'guard-rspec', '~> 4.7', '>= 4.7.2'
+gem 'guard-rspec'
 gem 'guard-bundler'
+gem 'rspec-rails'
 gem 'factory_girl_rails'
 gem 'capybara'
 gem 'faker'
 gem 'shoulda-matchers'
 gem 'launchy'
 gem 'quiet_assets'
+gem 'bootstrap-generators'
+gem 'bootstrap'
+gem 'bootstrap-sass'
 
 # gem to open github from command line
 gem 'git-browse-remote'
