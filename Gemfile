@@ -37,7 +37,7 @@ gem 'launchy'
 gem 'quiet_assets'
 gem 'bootstrap-generators'
 gem 'bootstrap'
-gem 'bootstrap-sass'
+gem 'bootstrap-sass', '~> 3.3.6'
 
 # gem to open github from command line
 gem 'git-browse-remote'
