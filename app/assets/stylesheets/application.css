@@ -56,7 +56,7 @@ body {
     background-size: cover;
 
 
-    height: 118%;
+    height: 123%;
     background-color: #060;
     color: #fff;
     text-align: center;
@@ -169,7 +169,7 @@ body {
     }
     .mastfoot {
         position: fixed;
-        bottom: -25px;
+        bottom: -45px;
     }
     /* Start the vertical centering */
     .site-wrapper-inner {
