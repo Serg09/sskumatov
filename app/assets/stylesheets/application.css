@@ -169,7 +169,7 @@ body {
     }
     .mastfoot {
         position: fixed;
-        bottom: -45px;
+        bottom: -25px;
     }
     /* Start the vertical centering */
     .site-wrapper-inner {
@@ -197,14 +197,16 @@ body {
 
 h3 {
     display: inline-block;
-    padding: 10px;
-    background: #B9121B;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    padding: 8px;
+    background: #1932b9;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
 }
 
-.full-screen {
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.p {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 13px;
 }
