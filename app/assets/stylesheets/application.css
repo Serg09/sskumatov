@@ -1,3 +1,4 @@
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
@@ -13,3 +14,43 @@
  *= require_tree .
  *= require_self
  */
+
+h3 {
+    display: inline-block;
+    padding: 10px;
+    background: #B9121B;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.full-screen {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/*if you don't want the indicators or/and the controls*/
+/*.carousel-indicators,
+.carousel-control {
+  display: none;
+}*/
+
+/*.address_background*/
+/*!*.backgroundimage*!*/
+/*{*/
+    /*!* This image will be displayed fullscreen *!*/
+    /*background: url('rose.jpg') center center no-repeat;*/
+    /*!* Ensure the html element always takes up the full height of the browser window *!*/
+    /*min-height:10%;*/
+    /*background-repeat: no-repeat;*/
+    /*height: 650px;*/
+    /*border-radius: 0 !important;*/
+    /*font-weight: bold;*/
+    /*text-align: center;*/
+    /*margin-top: -29px;*/
+    /*margin-left: -79px;*/
+    /*margin-right: -79px;*/
+
+    /*background-size: cover;*/
+    /*!*background-size:400px 750px;*!*/
+/*}*/

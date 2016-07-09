@@ -1,5 +1,19 @@
 Rails.application.routes.draw do
-  get 'home/index'
+
+  get 'static_pages/home'
+
+  get 'static_pages/about'
+
+  get 'static_pages/contact'
+
+  # get 'home/index'
+
+
+  # map.with_options :controller => 'static_pages' do |static_pages|
+  #   static_pages.home 'home', :action => 'home'
+  #   static_pages.about 'about', :action => 'about'
+  #   static_pages.contact 'contact', :action => 'contact'
+  # end
 
   # get 'home/resume'
 
