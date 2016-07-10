@@ -2,3 +2,7 @@ AllCops:
   Exclude:
     - 'Guardfile'
     - 'Gemfile'
+    - "sskumatov/**/*"
+
+Documentation:
+    Enabled: false

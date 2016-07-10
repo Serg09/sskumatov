@@ -10,6 +10,13 @@ require 'rails_helper'
 #     end
 #   end
 # end
+
 RSpec.describe StaticPagesHelper, type: :helper do
-  pending "add some examples to (or delete) #{__FILE__}"
+  describe ApplicationHelper do
+    describe "#page_title" do
+      it "returns true" do
+        helper.page_title.should be_truthy #check home_helper_spec.rb
+      end
+    end
+  end
 end
