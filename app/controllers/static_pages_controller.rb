@@ -6,5 +6,6 @@ class StaticPagesController < ApplicationController
   end
 
   def contact
+    # redirect_to :back
   end
 end

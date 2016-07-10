@@ -11,5 +11,9 @@ require 'rails_helper'
 #   end
 # end
 RSpec.describe HomeHelper, type: :helper do
-  # pending "add some examples to (or delete) #{__FILE__}"
+  module ApplicationHelper
+    def page_title
+      true
+    end
+  end
 end
