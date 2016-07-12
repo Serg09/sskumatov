@@ -36,9 +36,12 @@ gem 'shoulda-matchers'
 gem 'launchy'
 gem 'quiet_assets'
 gem 'bootstrap-generators'
-gem 'bootstrap'
+# gem 'bootstrap'
 gem 'bootstrap-sass', '~> 3.3.6'
-gem 'jquery-turbolinks'
+gem 'jquery-turbolinks', '~> 2.1'
+gem 'devise'
+gem 'bootstrap-autohidingnavbar-rails'
+
 
 # gem to open github from command line
 gem 'git-browse-remote'
