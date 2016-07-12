@@ -30,6 +30,6 @@ feature 'My Resume Page' do
 
   scenario 'home page must include link' do
     visit '/'
-    expect(page).to have_link('', href: "http://localhost:3000/")
+    expect(page).to have_link('', href: "https://github.com/Serg09")
   end
 end
