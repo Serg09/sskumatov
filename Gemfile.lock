@@ -361,6 +361,7 @@ DEPENDENCIES
   jquery-rails
   jquery-turbolinks (~> 2.1)
   launchy
+  mail
   pg
   quiet_assets
   rails (= 4.2.6)
