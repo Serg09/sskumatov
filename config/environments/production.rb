@@ -100,10 +100,10 @@ Rails.application.configure do
     }
   end
 
-  # Mail.deliver do
-  #   to 'sergeyskumatov@aol.com'
-  #   from 'sender@example.comt'
-  #   subject 'testing send mail'
-  #   body 'Sending email with Ruby through SendGrid!'
-  # end
+  Mail.deliver do
+    to 'sergeyskumatov@aol.com'
+    from 'sender@example.comt'
+    subject 'testing send mail'
+    body 'Sending email with Ruby through SendGrid!'
+  end
 end
