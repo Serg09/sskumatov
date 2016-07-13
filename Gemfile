@@ -41,6 +41,8 @@ gem 'jquery-turbolinks', '~> 2.1'
 gem 'devise'
 gem 'bootstrap-autohidingnavbar-rails'
 gem 'heroku'
+gem 'delayed_job_active_record'
+gem 'devise_zxcvbn'
 
 # gem to open github from command line
 gem 'git-browse-remote'

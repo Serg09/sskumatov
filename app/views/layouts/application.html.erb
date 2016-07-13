@@ -38,11 +38,20 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="/static_pages/home">Home</a></li>
           </ul>
+
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/static_pages/about" media="screen">About</a></li>
           <li><a href="/static_pages/contact" media="screen">Contact</a></li>
 
-          <ul class="nav navbar-nav pull-right">
+
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><%= link_to 'About', secret_path %></li>
+          <% if user_signed_in? %>
+              <li><%= link_to 'Secret', secret_path %></li>
+          <% end %>
+          </ul>
+
+
             <% if user_signed_in? %>
                 <li class="dropdown">
                   <a class="dropdown-toggle" data-toggle="dropdown" href="#">
@@ -58,10 +67,11 @@
                 <li><%= link_to 'Log In', new_user_session_path %></li>
                 <li><%= link_to 'Sign Up', new_user_registration_path %></li>
             <% end %>
+
+
+          </ul>
           </ul>
 
-
-        </ul>
       </div>
     </div>
   </nav>
