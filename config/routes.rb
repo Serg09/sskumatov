@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   get 'static_pages/contact'
 
+  get 'secret/secret', to: 'secret#secret', as: :secret
+
   # get 'home/index'
 
 

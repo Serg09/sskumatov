@@ -50,11 +50,13 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+
+
     background-size: cover;
 
 
     height: 123%;
-    background-color: #060;
+    background-color: #0d0f24;
     color: #fff;
     text-align: center;
     text-shadow: 0 1px 3px rgba(0,0,0,.5);
@@ -188,37 +190,13 @@ body {
     }
 }
 
-
 /*----------------------*/
 
 
-/*h3 {*/
-    /*display: inline-block;*/
-    /*padding: 8px;*/
-    /*background: #1932b9;*/
-    /*border-top-left-radius: 8px;*/
-    /*border-bottom-left-radius: 8px;*/
-    /*border-top-right-radius: 8px;*/
-    /*border-bottom-right-radius: 8px;*/
-/*}*/
 
-/*.p {*/
-    /*text-align: center;*/
-    /*padding-top: 40px;*/
-    /*font-size: 13px;*/
-/*}*/
-
-/*#follower{*/
-    /*position : absolute;*/
-    /*background-color : #a0a6ff;*/
-    /*color : white;*/
-    /*padding : 5px;*/
-/*}*/
-
-.alert-alert {
-@extend .alert-warning;
-}
-
-.alert-notice {
-@extend .alert-info;
+.divider{
+    width:125px;
+    height:auto;
+    display:inline-block;
+    margin:20px;
 }
