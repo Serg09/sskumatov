@@ -81,14 +81,12 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.default_url_options = { host: 'limitless-fortress-77954.herokuapp.com' }
 
-  config.action_mailer.perform_deliveries = true
+  # config.action_mailer.perform_deliveries = true
   #
   # # Sendgrid
   #
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.default_url_options = { host: 'limitless-fortress-77954.herokuapp.com' }
-
-
 
   Mail.defaults do
     delivery_method :smtp, {
@@ -102,10 +100,10 @@ Rails.application.configure do
     }
   end
 
-  Mail.deliver do
-    to 'sergeyskumatov@aol.com'
-    from 'sender@example.comt'
-    subject 'testing send mail'
-    body 'Sending email with Ruby through SendGrid!'
-  end
+  # Mail.deliver do
+  #   to 'sergeyskumatov@aol.com'
+  #   from 'sender@example.comt'
+  #   subject 'testing send mail'
+  #   body 'Sending email with Ruby through SendGrid!'
+  # end
 end
