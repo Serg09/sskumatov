@@ -12,14 +12,14 @@ Rails.application.configure do
   config.eager_load = true
 
   # Full error reports are disabled and caching is turned on.
-  # config.consider_all_requests_local       = false
-  # config.action_controller.perform_caching = true
-  #
-  # config.action_mailer.default_url_options = { :host => 'limitless-fortress-77954.herokuapp.com' }
-  # config.action_mailer.delivery_method = :smtp
-  # config.action_mailer.perform_deliveries = true
-  # config.action_mailer.raise_delivery_errors = false
-  # config.action_mailer.default :charset => "utf-8"
+  config.consider_all_requests_local       = false
+  config.action_controller.perform_caching = true
+
+  config.action_mailer.default_url_options = { :host => 'limitless-fortress-77954.herokuapp.com' }
+  config.action_mailer.delivery_method = :smtp
+  config.action_mailer.perform_deliveries = true
+  config.action_mailer.raise_delivery_errors = false
+  config.action_mailer.default :charset => "utf-8"
   #
   # config.action_mailer.smtp_settings = {
   #     address: "smtp.gmail.com",

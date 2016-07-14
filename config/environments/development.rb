@@ -43,12 +43,12 @@ Rails.application.configure do
   config.action_mailer.perform_deliveries = true
 
   # Don't care if the mailer can't send.
-  # config.action_mailer.raise_delivery_errors = true
-  # config.action_mailer.default_url_options = { host:'localhost:3000' }
-  # config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
-  # config.action_mailer.default :charset => "utf-8"
-  # config.action_mailer.default_options = {from: 'sskumatov@gmail.com'}
-  #
+  config.action_mailer.raise_delivery_errors = true
+  config.action_mailer.default_url_options = { host:'localhost:3000' }
+  config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
+  config.action_mailer.default :charset => "utf-8"
+  config.action_mailer.default_options = {from: 'sskumatov@gmail.com'}
+
   # config.action_mailer.delivery_method = :smtp
   # config.action_mailer.smtp_settings = {
   #     address: "smtp.gmail.com",
@@ -60,5 +60,16 @@ Rails.application.configure do
   #     password: ENV["GMAIL_PASSWORD"],
   #     openssl_verify_mode: 'none'
   # }
+
+  # ActionMailer::Base.smtp_settings = {
+  config.action_mailer.smtp_settings = {
+      :address        => 'smtp.sendgrid.net',
+      :port           => '587',
+      :authentication => :plain,
+      :user_name      => ENV['SENDGRID_USERNAME'],
+      :password       => ENV['SENDGRID_PASSWORD'],
+      :domain         => 'heroku.com',
+      :enable_starttls_auto => true
+  }
 
 end
