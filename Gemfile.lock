@@ -119,6 +119,8 @@ GEM
     faker (1.6.5)
       i18n (~> 0.5)
     ffi (1.9.13)
+    figaro (1.1.1)
+      thor (~> 0.14)
     formatador (0.2.5)
     gherkin (4.0.0)
     git-browse-remote (0.2.0)
@@ -352,6 +354,7 @@ DEPENDENCIES
   devise_zxcvbn
   factory_girl_rails
   faker
+  figaro
   git-browse-remote
   guard-bundler
   guard-rspec
