@@ -45,7 +45,7 @@
 
 
         <ul class="nav navbar-nav navbar-right">
-          <li><%= link_to 'About', secret_path %></li>
+          <li><%= link_to 'About', static_pages_about_path %></li>
           <% if user_signed_in? %>
               <li><%= link_to 'Secret', secret_path %></li>
           <% end %>
