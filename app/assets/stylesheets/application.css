@@ -13,7 +13,9 @@
  *= require_tree .
  *= require_self
  */
-
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import 'bootstrap/theme';
 /*
 * Based on Cover by https://twitter.com/mdo"  @mdo
 * added cover image and background color to match (green)
