@@ -25,7 +25,6 @@
 //= require bootstrap/modal
 //= require bootstrap/tooltip
 //= require bootstrap/popover
-//= require turbolinks
 //= require_tree .
 //= require jquery.turbolinks
 //= require jquery.bootstrap-autohidingnavbar
