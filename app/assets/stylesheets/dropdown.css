@@ -1,0 +1,15 @@
+.dropdown-menu {
+    left: 100%;
+    width: 20px;
+    height: 83px;
+    min-width: 112px;
+    position: absolute;
+    isibility: hidden;
+    margin-top: -1px;
+    ext-align: center;
+    /*top: 0px;*/
+    /*adding: 100;*/
+    /*position: static;*/
+    left: auto;
+    white-space: normal;
+}

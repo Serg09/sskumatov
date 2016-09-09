@@ -1,0 +1,151 @@
+[33m986944a[m HEAD@{Wed Sep 7 10:40:52 2016}: checkout: moving from finilizing_01 to docker
+[33m2fa0f60[m HEAD@{Wed Sep 7 10:26:17 2016}: checkout: moving from master to finilizing_01
+[33m2fa0f60[m HEAD@{Wed Sep 7 10:25:39 2016}: pull: Fast-forward
+[33m789d98a[m HEAD@{Wed Sep 7 10:25:32 2016}: checkout: moving from docker to master
+[33m986944a[m HEAD@{Wed Sep 7 10:25:02 2016}: commit: docker
+[33m789d98a[m HEAD@{Mon Aug 1 14:27:33 2016}: checkout: moving from master to docker
+[33m789d98a[m HEAD@{Mon Aug 1 14:27:24 2016}: pull: Fast-forward
+[33mfe60f9a[m HEAD@{Mon Aug 1 14:27:20 2016}: checkout: moving from devise_redirect_specific_page to master
+[33mffe1f3c[m HEAD@{Mon Aug 1 14:26:29 2016}: commit: fixed problem with redirection to a right page under Devise
+[33mfe60f9a[m HEAD@{Sat Jul 30 21:53:46 2016}: checkout: moving from master to devise_redirect_specific_page
+[33mfe60f9a[m HEAD@{Sat Jul 30 21:53:23 2016}: pull: Fast-forward
+[33me10ca48[m HEAD@{Sat Jul 30 21:52:50 2016}: checkout: moving from devise_redirect_specific_page to master
+[33me10ca48[m HEAD@{Sat Jul 30 21:11:07 2016}: checkout: moving from master to devise_redirect_specific_page
+[33me10ca48[m HEAD@{Sat Jul 30 21:10:35 2016}: checkout: moving from site_mod to master
+[33me95ccd5[m HEAD@{Sat Jul 30 21:09:36 2016}: commit: few changes to the views to make them work correctly
+[33me10ca48[m HEAD@{Sat Jul 30 19:30:15 2016}: checkout: moving from master to site_mod
+[33me10ca48[m HEAD@{Fri Jul 22 14:45:18 2016}: pull: Merge made by the 'recursive' strategy.
+[33mfaa318c[m HEAD@{Fri Jul 22 14:45:14 2016}: checkout: moving from mail_test to master
+[33mb941a98[m HEAD@{Fri Jul 22 14:43:55 2016}: commit: change panding test to real one for devise. Still does not work properly. Need help
+[33m92b8f10[m HEAD@{Fri Jul 22 14:13:54 2016}: checkout: moving from ubuntu_gems to mail_test
+[33m8fea2c9[m HEAD@{Fri Jul 22 14:09:16 2016}: checkout: moving from js_carusel to ubuntu_gems
+[33me60279b[m HEAD@{Fri Jul 22 14:08:55 2016}: checkout: moving from mailer to js_carusel
+[33m9ed4bb4[m HEAD@{Fri Jul 22 14:08:28 2016}: checkout: moving from device to mailer
+[33mf672ad5[m HEAD@{Fri Jul 22 14:08:00 2016}: checkout: moving from gmail_v2 to device
+[33m92b8f10[m HEAD@{Fri Jul 22 14:07:35 2016}: checkout: moving from mail_test to gmail_v2
+[33m92b8f10[m HEAD@{Thu Jul 21 13:05:14 2016}: checkout: moving from gmail_v2 to mail_test
+[33m92b8f10[m HEAD@{Wed Jul 13 23:47:14 2016}: checkout: moving from master to gmail_v2
+[33mfaa318c[m HEAD@{Wed Jul 13 23:45:52 2016}: merge origin/gmail_v2: Merge made by the 'recursive' strategy.
+[33m0eb6fc3[m HEAD@{Wed Jul 13 23:45:45 2016}: checkout: moving from gmail_v2 to master
+[33m92b8f10[m HEAD@{Wed Jul 13 23:45:33 2016}: commit: testing sendgrid
+[33mbe1ec76[m HEAD@{Wed Jul 13 23:38:31 2016}: checkout: moving from master to gmail_v2
+[33m0eb6fc3[m HEAD@{Wed Jul 13 23:37:31 2016}: merge origin/gmail_v2: Merge made by the 'recursive' strategy.
+[33ma2c2560[m HEAD@{Wed Jul 13 23:37:23 2016}: checkout: moving from gmail_v2 to master
+[33mbe1ec76[m HEAD@{Wed Jul 13 23:37:09 2016}: commit: sendgrid settings changed
+[33m8059b10[m HEAD@{Wed Jul 13 23:25:18 2016}: checkout: moving from master to gmail_v2
+[33ma2c2560[m HEAD@{Wed Jul 13 23:24:08 2016}: merge origin/gmail_v2: Merge made by the 'recursive' strategy.
+[33m24fb392[m HEAD@{Wed Jul 13 23:23:59 2016}: checkout: moving from gmail_v2 to master
+[33m8059b10[m HEAD@{Wed Jul 13 23:23:33 2016}: commit: testing sendgrid
+[33m8dcf858[m HEAD@{Wed Jul 13 19:13:02 2016}: checkout: moving from master to gmail_v2
+[33m24fb392[m HEAD@{Wed Jul 13 19:08:27 2016}: pull: Fast-forward
+[33mdc7cd3f[m HEAD@{Wed Jul 13 19:08:23 2016}: checkout: moving from gmail_v2 to master
+[33m8dcf858[m HEAD@{Wed Jul 13 19:07:47 2016}: commit: mails settings changed
+[33mdc7cd3f[m HEAD@{Wed Jul 13 19:00:12 2016}: checkout: moving from master to gmail_v2
+[33mdc7cd3f[m HEAD@{Wed Jul 13 18:50:51 2016}: merge origin/gmail_v2: Fast-forward
+[33mb31b7fc[m HEAD@{Wed Jul 13 18:50:43 2016}: checkout: moving from gmail_v2 to master
+[33mdc7cd3f[m HEAD@{Wed Jul 13 18:50:29 2016}: commit: another changes
+[33mb31b7fc[m HEAD@{Wed Jul 13 18:39:21 2016}: checkout: moving from master to gmail_v2
+[33mb31b7fc[m HEAD@{Wed Jul 13 18:36:17 2016}: merge origin/gmail_v2: Fast-forward
+[33mcd57358[m HEAD@{Wed Jul 13 18:36:07 2016}: checkout: moving from gmail_v2 to master
+[33mb31b7fc[m HEAD@{Wed Jul 13 18:35:52 2016}: commit: add password
+[33mcd57358[m HEAD@{Wed Jul 13 18:15:19 2016}: checkout: moving from master to gmail_v2
+[33mcd57358[m HEAD@{Wed Jul 13 18:14:26 2016}: merge origin/gmail_v2: Fast-forward
+[33m0a66fca[m HEAD@{Wed Jul 13 18:14:09 2016}: checkout: moving from gmail_v2 to master
+[33mcd57358[m HEAD@{Wed Jul 13 18:13:47 2016}: commit: configuration for mail
+[33m0a66fca[m HEAD@{Wed Jul 13 17:44:40 2016}: checkout: moving from master to gmail_v2
+[33m0a66fca[m HEAD@{Wed Jul 13 16:54:31 2016}: pull: Fast-forward
+[33m4e82c71[m HEAD@{Wed Jul 13 16:54:27 2016}: checkout: moving from gmail_v1 to master
+[33meb076d3[m HEAD@{Wed Jul 13 16:53:49 2016}: commit: gmails test
+[33m4e82c71[m HEAD@{Wed Jul 13 16:41:48 2016}: checkout: moving from master to gmail_v1
+[33m4e82c71[m HEAD@{Wed Jul 13 16:37:24 2016}: pull: Fast-forward
+[33m2f47d0d[m HEAD@{Wed Jul 13 16:37:20 2016}: checkout: moving from mailer_v5 to master
+[33m97f94b7[m HEAD@{Wed Jul 13 16:36:29 2016}: commit: mailer test (sandgrid)
+[33m2f47d0d[m HEAD@{Wed Jul 13 16:36:05 2016}: checkout: moving from master to mailer_v5
+[33m2f47d0d[m HEAD@{Wed Jul 13 01:03:49 2016}: checkout: moving from master to master
+[33m2f47d0d[m HEAD@{Wed Jul 13 01:01:17 2016}: commit: key changed
+[33m17da2ad[m HEAD@{Wed Jul 13 00:59:09 2016}: pull: Fast-forward
+[33m2af1c6f[m HEAD@{Wed Jul 13 00:58:55 2016}: checkout: moving from mailer_v4 to master
+[33m2d95be3[m HEAD@{Wed Jul 13 00:56:47 2016}: commit: test
+[33m2af1c6f[m HEAD@{Wed Jul 13 00:56:16 2016}: checkout: moving from master to mailer_v4
+[33m2af1c6f[m HEAD@{Wed Jul 13 00:52:56 2016}: pull: Fast-forward
+[33m972f4ce[m HEAD@{Wed Jul 13 00:52:52 2016}: checkout: moving from mailer_v3 to master
+[33m4868483[m HEAD@{Wed Jul 13 00:52:09 2016}: commit: mailer ver 3
+[33m972f4ce[m HEAD@{Wed Jul 13 00:51:49 2016}: checkout: moving from master to mailer_v3
+[33m972f4ce[m HEAD@{Tue Jul 12 23:54:26 2016}: pull: Fast-forward
+[33mea2f3cd[m HEAD@{Tue Jul 12 23:54:20 2016}: checkout: moving from mailer_v2 to master
+[33ma13d9e9[m HEAD@{Tue Jul 12 23:52:52 2016}: commit: mailer ver 2
+[33mea2f3cd[m HEAD@{Tue Jul 12 23:52:11 2016}: checkout: moving from master to mailer_v2
+[33mea2f3cd[m HEAD@{Tue Jul 12 23:36:12 2016}: pull: Fast-forward
+[33m558631b[m HEAD@{Tue Jul 12 23:36:08 2016}: checkout: moving from mailer to master
+[33m9ed4bb4[m HEAD@{Tue Jul 12 23:32:50 2016}: checkout: moving from master to mailer
+[33m558631b[m HEAD@{Tue Jul 12 23:32:38 2016}: checkout: moving from mailer to master
+[33m9ed4bb4[m HEAD@{Tue Jul 12 23:32:20 2016}: commit: setting up mailer
+[33m558631b[m HEAD@{Tue Jul 12 23:10:16 2016}: checkout: moving from master to mailer
+[33m558631b[m HEAD@{Tue Jul 12 23:01:50 2016}: merge origin/sendgrid_design: Fast-forward
+[33m8b5e91e[m HEAD@{Tue Jul 12 23:01:42 2016}: checkout: moving from sendgrid_design to master
+[33m558631b[m HEAD@{Tue Jul 12 23:01:15 2016}: commit: setting email and testing
+[33m8b5e91e[m HEAD@{Tue Jul 12 22:24:06 2016}: checkout: moving from master to sendgrid_design
+[33m8b5e91e[m HEAD@{Tue Jul 12 22:03:47 2016}: merge origin/sendgrid_design: Fast-forward
+[33m0574eda[m HEAD@{Tue Jul 12 22:03:33 2016}: checkout: moving from sendgrid_design to master
+[33m8b5e91e[m HEAD@{Tue Jul 12 22:03:01 2016}: commit: mail (gem) and sengrid
+[33m0574eda[m HEAD@{Tue Jul 12 21:16:01 2016}: checkout: moving from master to sendgrid_design
+[33m0574eda[m HEAD@{Tue Jul 12 20:53:24 2016}: pull: Fast-forward
+[33m831245a[m HEAD@{Tue Jul 12 20:53:19 2016}: checkout: moving from heroku_sendgrid to master
+[33m8027100[m HEAD@{Tue Jul 12 20:51:46 2016}: commit: add device
+[33mbb11efb[m HEAD@{Tue Jul 12 11:40:44 2016}: checkout: moving from master to heroku_sendgrid
+[33m831245a[m HEAD@{Tue Jul 12 11:36:57 2016}: pull: Fast-forward
+[33m4990c9d[m HEAD@{Tue Jul 12 11:36:53 2016}: checkout: moving from heroku_sendgrid to master
+[33mbb11efb[m HEAD@{Tue Jul 12 11:36:09 2016}: commit: fixing heroku
+[33m2285b3c[m HEAD@{Tue Jul 12 11:35:21 2016}: checkout: moving from master to heroku_sendgrid
+[33m4990c9d[m HEAD@{Tue Jul 12 11:33:30 2016}: pull: Fast-forward
+[33m8df7f55[m HEAD@{Tue Jul 12 11:32:46 2016}: checkout: moving from heroku_sendgrid to master
+[33m2285b3c[m HEAD@{Tue Jul 12 11:31:40 2016}: commit: fixed ruby env for heroku
+[33m1498503[m HEAD@{Tue Jul 12 11:30:01 2016}: checkout: moving from master to heroku_sendgrid
+[33m8df7f55[m HEAD@{Tue Jul 12 11:19:20 2016}: pull: Fast-forward
+[33m2f268ec[m HEAD@{Tue Jul 12 11:19:11 2016}: checkout: moving from heroku_sendgrid to master
+[33m1498503[m HEAD@{Tue Jul 12 11:18:07 2016}: commit: add heroku
+[33m2f268ec[m HEAD@{Tue Jul 12 10:49:31 2016}: checkout: moving from master to heroku_sendgrid
+[33m2f268ec[m HEAD@{Tue Jul 12 10:47:46 2016}: pull: Merge made by the 'recursive' strategy.
+[33mf672ad5[m HEAD@{Tue Jul 12 10:47:01 2016}: merge origin/device: Fast-forward
+[33m7cc50f1[m HEAD@{Tue Jul 12 10:46:48 2016}: checkout: moving from device to master
+[33mf672ad5[m HEAD@{Tue Jul 12 10:39:28 2016}: commit: add gem 'devise' with views and some configuaryions. No email sending and heroku is not set yet.
+[33m7cc50f1[m HEAD@{Sun Jul 10 22:59:42 2016}: checkout: moving from image_text_correction to device
+[33m7cc50f1[m HEAD@{Sun Jul 10 10:10:20 2016}: checkout: moving from master to image_text_correction
+[33m7cc50f1[m HEAD@{Sun Jul 10 10:05:34 2016}: merge image_text_correction: Fast-forward
+[33m3362a3c[m HEAD@{Sun Jul 10 10:05:17 2016}: checkout: moving from image_text_correction to master
+[33m7cc50f1[m HEAD@{Sun Jul 10 10:03:27 2016}: rebase -i (finish): returning to refs/heads/image_text_correction
+[33m7cc50f1[m HEAD@{Sun Jul 10 10:03:27 2016}: rebase -i (start): checkout origin/master
+[33m7cc50f1[m HEAD@{Sun Jul 10 09:58:20 2016}: commit: correct image size, add some example text, did some formatting
+[33m3362a3c[m HEAD@{Sun Jul 10 01:41:59 2016}: checkout: moving from master to image_text_correction
+[33m3362a3c[m HEAD@{Sun Jul 10 01:41:16 2016}: pull: Fast-forward
+[33ma3ca45d[m HEAD@{Sun Jul 10 01:41:11 2016}: checkout: moving from js_mouse_background to master
+[33ma683f6b[m HEAD@{Sun Jul 10 01:38:59 2016}: commit: modify .rspec to show less backtrace. Add mouse effect
+[33ma3ca45d[m HEAD@{Sat Jul 9 17:09:02 2016}: checkout: moving from master to js_mouse_background
+[33ma3ca45d[m HEAD@{Sat Jul 9 17:08:35 2016}: pull: Fast-forward
+[33m73e31c0[m HEAD@{Sat Jul 9 17:08:30 2016}: checkout: moving from js_small_carusel to master
+[33m3f4a8f9[m HEAD@{Sat Jul 9 17:06:36 2016}: commit: fixed issue with js image resizing, speed, links, and background
+[33me60279b[m HEAD@{Sat Jul 9 16:52:02 2016}: checkout: moving from js_carusel to js_small_carusel
+[33me60279b[m HEAD@{Sat Jul 9 16:51:31 2016}: commit: fix js
+[33m73e31c0[m HEAD@{Sat Jul 9 15:01:13 2016}: checkout: moving from master to js_carusel
+[33m73e31c0[m HEAD@{Sat Jul 9 15:00:57 2016}: pull: Fast-forward
+[33mfeba1ea[m HEAD@{Sat Jul 9 15:00:52 2016}: checkout: moving from carusel to master
+[33medef611[m HEAD@{Sat Jul 9 14:57:30 2016}: commit: add background image using HTML 5 and add photo carusel with javascript (still not do all I want)
+[33mfeba1ea[m HEAD@{Fri Jul 8 22:37:11 2016}: checkout: moving from master to carusel
+[33mfeba1ea[m HEAD@{Fri Jul 8 22:36:41 2016}: pull: Fast-forward
+[33m59524c0[m HEAD@{Fri Jul 8 22:36:36 2016}: checkout: moving from site_design to master
+[33m7662d4c[m HEAD@{Fri Jul 8 22:35:30 2016}: commit: add routes, links in navbar, html design, first page image carusel (does not working correctly)
+[33m59524c0[m HEAD@{Fri Jul 8 22:34:07 2016}: checkout: moving from routes_pages to site_design
+[33m59524c0[m HEAD@{Fri Jul 8 08:01:45 2016}: checkout: moving from master to routes_pages
+[33m59524c0[m HEAD@{Fri Jul 8 08:01:08 2016}: checkout: moving from routes_pages to master
+[33m59524c0[m HEAD@{Thu Jul 7 19:26:25 2016}: checkout: moving from master to routes_pages
+[33m59524c0[m HEAD@{Thu Jul 7 19:20:39 2016}: pull: Fast-forward
+[33m4e86057[m HEAD@{Thu Jul 7 19:20:34 2016}: checkout: moving from resume_page to master
+[33m4669c31[m HEAD@{Thu Jul 7 19:15:09 2016}: commit: Add bootstrap and install it. Add rspec and install it. Add guard. Did simple TDD test. Add empty page
+[33m4e86057[m HEAD@{Thu Jul 7 10:32:58 2016}: checkout: moving from master to resume_page
+[33m4e86057[m HEAD@{Thu Jul 7 10:32:13 2016}: commit: add simple TDD for testing perposes
+[33mdc04990[m HEAD@{Wed Jul 6 22:55:09 2016}: pull: Fast-forward
+[33m4e353f1[m HEAD@{Wed Jul 6 22:54:28 2016}: checkout: moving from ubuntu_gems to master
+[33m8fea2c9[m HEAD@{Wed Jul 6 22:49:58 2016}: commit: Add git-browse-remote gem
+[33me518891[m HEAD@{Wed Jul 6 22:43:54 2016}: commit: set TDD. Add gems and did some changes to files and directories (create TDD directories
+[33m4e353f1[m HEAD@{Mon Jul 4 10:36:37 2016}: checkout: moving from master to ubuntu_gems
+[33m4e353f1[m HEAD@{Mon Jul 4 10:28:13 2016}: clone: from git@github.com:Serg09/sskumatov.git

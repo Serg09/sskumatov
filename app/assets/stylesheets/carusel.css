@@ -1,11 +1,11 @@
-h3 {
+h33 {
   display: inline-block;
-  padding: 8px;
-  background: #1932b9;
-  border-top-left-radius: 8px;
-  border-bottom-left-radius: 8px;
-  border-top-right-radius: 8px;
-  border-bottom-right-radius: 8px;
+  padding: 5px;
+  background: #001862;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
 }
 
 .p {
