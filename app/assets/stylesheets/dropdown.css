@@ -4,12 +4,14 @@
     height: 83px;
     min-width: 112px;
     position: absolute;
-    isibility: hidden;
-    margin-top: -1px;
-    ext-align: center;
+    /*visibility: hidden;*/
+    margin-top: -10px;
+    text-align: center;
     /*top: 0px;*/
     /*adding: 100;*/
     /*position: static;*/
     left: auto;
     white-space: normal;
+    background-color: #000148;
+    text: #fffafe;
 }
