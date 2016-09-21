@@ -1,17 +1,13 @@
 <!DOCTYPE html>
 <html>
 <!--<meta http-equiv="refresh" content="0" />-->
-<body>
-<div class="address_background">
 
-  <h1 align="center">Contact</h1>
-
-<h3 align="center"><em>Sergey M.. Skumatov</em></h3>
-
-<div align="center"><%= render 'address'%></div>
+  <% if user_signed_in? %>
+      <div align="center"><%= render 'address'%></div>
+  <% end %>
 
   <!--<div id="follower">Move your mouse</div>-->
-
-  </div>
-</body>
 </html>
+
+
+-->

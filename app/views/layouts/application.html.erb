@@ -40,16 +40,24 @@
           </ul>
 
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="/static_pages/contact" media="screen">Contact</a></li>
+          <!--<li><a href="/static_pages/contact" media="screen">Contact</a></li>-->
 
 
-          <!--<ul class="nav navbar-nav navbar-right">-->
+          <!--ABOUT-->
             <% if user_signed_in? %>
                 <li><%= link_to 'About', static_pages_about_path %></li>
             <% else%>
                 <li><%= link_to 'About', secret_path %></li>
             <% end %>
-          <!--</ul>-->
+          <!--END-->
+
+          <!--ADDRESS-->
+          <% if user_signed_in? %>
+              <li><%= link_to 'Contact', static_pages_contact_path %></li>
+          <% else%>
+              <li><%= link_to 'Contact', secret_address_path %></li>
+          <% end %>
+          <!--END-->
 
 
             <% if user_signed_in? %>
