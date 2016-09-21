@@ -107,7 +107,7 @@ Rails.application.configure do
       :user_name      => ENV['SENDGRID_USERNAME'],
       :password       => ENV['SENDGRID_PASSWORD'],
       # :domain         => 'heroku.com',
-      :domain         => 'whispering-stream-81863.herokuapp.com',
+      :domain         => 'herokuapp.com',
       :enable_starttls_auto => true
   }
 
