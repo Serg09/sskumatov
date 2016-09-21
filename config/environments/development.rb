@@ -49,14 +49,14 @@ Rails.application.configure do
   config.action_mailer.default :charset => "utf-8"
   config.action_mailer.default_options = {from: 'sergeyskumatov@gmail.com'}
 
-  # config.action_mailer.smtp_settings = {
-  #     :address        => 'smtp.sendgrid.net',
-  #     :port           => '587',
-  #     :authentication => :plain,
-  #     :user_name      => ENV['SENDGRID_USERNAME_DEV'],
-  #     :password       => ENV['SENDGRID_PASSWORD_DEV'],
-  #     :domain         => 'heroku.com',
-  #     :enable_starttls_auto => true
-  # }
+  config.action_mailer.smtp_settings = {
+      :address        => 'smtp.sendgrid.net',
+      :port           => '587',
+      :authentication => :plain,
+      :user_name      => ENV['SENDGRID_USERNAME_DEV'],
+      :password       => ENV['SENDGRID_PASSWORD_DEV'],
+      :domain         => 'heroku.com',
+      :enable_starttls_auto => true
+  }
 
 end

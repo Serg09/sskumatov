@@ -19,10 +19,6 @@ class ApplicationController < ActionController::Base
     '/static_pages/about' #:static_pages_about_url # Or :prefix_to_your_route
   end
 
-  # def after_inactive_sign_in_path_for(resource)
-  #   '/static_pages/home' #:static_pages_home_path # Or :prefix_to_your_route
-  # end
-
   def after_sign_out_path_for(resource)
     '/static_pages/home'
   end
