@@ -97,7 +97,7 @@ Rails.application.configure do
   # # Sendgrid
   #
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.default_url_options = { host: 'limitless-fortress-77954.herokuapp.com' }
+  config.action_mailer.default_url_options = { host: 'whispering-stream-81863.herokuapp.com' }
 
   ActionMailer::Base.smtp_settings = {
   # config.action_mailer.smtp_settings = {
@@ -107,7 +107,7 @@ Rails.application.configure do
       :user_name      => ENV['SENDGRID_USERNAME'],
       :password       => ENV['SENDGRID_PASSWORD'],
       # :domain         => 'heroku.com',
-      :domain         => 'herokuapp.com',
+      :domain         => 'whispering-stream-81863.herokuapp.com',
       :enable_starttls_auto => true
   }
 
