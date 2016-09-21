@@ -99,22 +99,16 @@ Rails.application.configure do
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.default_url_options = { host: 'limitless-fortress-77954.herokuapp.com' }
 
-  ActionMailer::Base.smtp_settings = {
-  # config.action_mailer.smtp_settings = {
-      :address        => 'smtp.sendgrid.net',
-      :port           => '587',
-      :authentication => :plain,
-      :user_name      => ENV['SENDGRID_USERNAME'],
-      :password       => ENV['SENDGRID_PASSWORD'],
-      # :domain         => 'heroku.com',
-      :domain         => 'herokuapp.com',
-      :enable_starttls_auto => true
-  }
+  # ActionMailer::Base.smtp_settings = {
+  # # config.action_mailer.smtp_settings = {
+  #     :address        => 'smtp.sendgrid.net',
+  #     :port           => '587',
+  #     :authentication => :plain,
+  #     :user_name      => ENV['SENDGRID_USERNAME'],
+  #     :password       => ENV['SENDGRID_PASSWORD'],
+  #     # :domain         => 'heroku.com',
+  #     :domain         => 'herokuapp.com',
+  #     :enable_starttls_auto => true
+  # }
 
-  # Mail.deliver do
-  #   to 'sergeyskumatov@aol.com'
-  #   from 'sender@example.comt'
-  #   subject 'testing send mail'
-  #   body 'Sending email with Ruby through SendGrid!'
-  # end
 end
