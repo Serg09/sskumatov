@@ -74,6 +74,20 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
+  # background #################
+
+  # Disable Rails's static asset server (Apache or nginx will already do this)
+  config.serve_static_assets = false
+
+  # Compress JavaScripts and CSS
+  config.assets.compress = true
+
+  # Don't fallback to assets pipeline if a precompiled asset is missed
+  config.assets.compile = false
+
+  # Generate digests for assets URLs
+  config.assets.digest = true
+
   # # Sendgrid
 
   # Full error reports are disabled and caching is turned on.
@@ -85,6 +99,7 @@ Rails.application.configure do
   #
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.default_url_options = { host: 'limitless-fortress-77954.herokuapp.com' }
+  config.action_mailer.default_options = {from: 'sergeyskumatov@gmail.com'}
 
   ActionMailer::Base.smtp_settings = {
   # config.action_mailer.smtp_settings = {
