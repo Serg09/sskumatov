@@ -107,7 +107,7 @@ Rails.application.configure do
       :user_name      => ENV['SENDGRID_USERNAME'],
       :password       => ENV['SENDGRID_PASSWORD'],
       # :domain         => 'heroku.com',
-      :domain         => 'herokuapp.com',
+      :domain         => 'limitless-fortress-77954.herokuapp.com',
       :enable_starttls_auto => true
   }
 
