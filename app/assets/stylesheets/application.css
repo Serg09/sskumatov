@@ -42,9 +42,13 @@ a:hover {
 /*
  * Base structure
  */
+/*body*/
+/*{*/
+    /*background-image: url(background_01.png)*/
+/*}*/
 
-html,
-body {
+body
+{
     /*css for full size background image*/
     background-color: #0d0f24;
     background-image: url(background_01.png);
@@ -54,13 +58,12 @@ body {
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-
     background-size: cover;
 
     height: 123%;
-    color: #fff;
+    color: #b7ebff;
     text-align: center;
-    text-shadow: 0 1px 3px rgba(0,0,0,.1);
+    /*text-shadow: 0 1px 3px rgba(0, 22, 255, 0.95);*/
 }
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
