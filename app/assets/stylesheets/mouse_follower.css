@@ -1,6 +1,12 @@
 #follower{
   position : static;
-  background-color : #000000;
+  /*background-color : #000000;*/
   color : darkred;
   padding : 2px;
 }
+
+
+/*.image_div {*/
+    /*background-image: image("background_01.png");*/
+    /*background-position: center*/
+/*}*/
