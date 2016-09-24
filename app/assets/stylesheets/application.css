@@ -51,7 +51,7 @@ body
 {
     /*css for full size background image*/
     background-color: #0d0f24;
-    background-image: url(background_01.png);
+    background-image: url(background_01.png); /* background image */
     background-position: 10% 10%;
     background-repeat: no-repeat;
     background-attachment: fixed; /* default */
