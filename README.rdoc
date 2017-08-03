@@ -1,5 +1,5 @@
 == README
 
-This is a Beta version of digital resume.
+This is a Beta version of my digital resume.
 
-It just started and have an approximate view of what it will be.
+An approximate view of how it will looks.
