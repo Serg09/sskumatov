@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby "2.3.1"
+ruby "2.5.0"
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -57,6 +57,10 @@ gem 'git-browse-remote'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+#
+# Make sure you add something like that to your `Gemfile`. Otherwise you will
+# get cucumber > 2 and this will fail on ruby 1.8.7
+gem 'cucumber', '~> 1.3.20'
 
 group :production do
   gem 'pg'
