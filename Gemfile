@@ -9,7 +9,6 @@ gem 'sassc-rails'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views
-# gem 'coffee-rails', '~> 4.1.0'
 gem 'coffee-rails'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
@@ -61,7 +60,6 @@ gem 'git-browse-remote'
 #
 # Make sure you add something like that to your `Gemfile`. Otherwise you will
 # get cucumber > 2 and this will fail on ruby 1.8.7
-# gem 'cucumber', '~> 1.3.20'
 gem 'cucumber'
 
 group :production do
