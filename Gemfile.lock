@@ -361,7 +361,7 @@ DEPENDENCIES
   guard-rubocop
   jbuilder (~> 2.0)
   jquery-rails
-  jquery-turbolinks (~> 2.1)
+  jquery-turbolinks
   launchy
   mail
   pg
