@@ -43,9 +43,6 @@ gem 'devise_zxcvbn'
 gem 'mail'
 gem 'figaro'
 
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
-
 # gem to open github from command line
 gem 'git-browse-remote'
 
@@ -68,6 +65,8 @@ group :production do
 end
 
 group :development, :test do
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
