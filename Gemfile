@@ -46,6 +46,9 @@ gem 'figaro'
 # gem to open github from command line
 gem 'git-browse-remote'
 
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -65,12 +68,10 @@ group :production do
 end
 
 group :development, :test do
-  # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'dotenv-rails'
+  # gem 'dotenv-rails'
 end
 
 group :development do
