@@ -45,17 +45,18 @@ Rails.application.configure do
   # Don't care if the mailer can't send.
   config.action_mailer.raise_delivery_errors = true
   config.action_mailer.default_url_options = { host:'localhost:3000' }
-  config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
+  # config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
   config.action_mailer.default :charset => "utf-8"
-  config.action_mailer.default_options = {from: 'no-from@gmail.com'}
+  config.action_mailer.default_options = {from: 'development@mail.com'}
 
+  config.action_mailer.delivery_method = :smtp
   config.action_mailer.smtp_settings = {
       :address        => 'smtp.sendgrid.net',
       :port           => '587',
       :authentication => :plain,
       :user_name      => ENV['SENDGRID_USERNAME_DEV'],
       :password       => ENV['SENDGRID_PASSWORD_DEV'],
-      :domain         => 'heroku.com',
+      :domain         => 'sendgrid.com',
       :enable_starttls_auto => true
   }
 
