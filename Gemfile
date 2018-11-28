@@ -28,7 +28,7 @@ gem 'guard-rubocop'
 gem 'guard-rspec'
 gem 'guard-bundler'
 gem 'rspec-rails'
-gem 'factory_bot_rails'
+gem 'factory_bot_rails', :require => false
 gem 'capybara'
 gem 'faker'
 gem 'shoulda-matchers'
@@ -42,6 +42,9 @@ gem 'delayed_job_active_record'
 gem 'devise_zxcvbn'
 gem 'mail'
 gem 'figaro'
+
+# Use sqlite3 as the database for Active Record
+gem 'sqlite3'
 
 # gem to open github from command line
 gem 'git-browse-remote'
@@ -65,8 +68,7 @@ group :production do
 end
 
 group :development, :test do
-  # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
+
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
   gem 'dotenv-rails'
