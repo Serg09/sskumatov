@@ -25,9 +25,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # sskumatov
 gem 'aruba'
 gem 'guard-rubocop'
-gem 'guard-rspec'
+# gem 'guard-rspec'
 gem 'guard-bundler'
-gem 'rspec-rails'
+# gem 'rspec-rails'
 gem 'factory_bot_rails', :require => false
 gem 'capybara'
 gem 'faker'
