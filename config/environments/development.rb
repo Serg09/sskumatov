@@ -59,5 +59,4 @@ Rails.application.configure do
       :domain         => 'sendgrid.com',
       :enable_starttls_auto => true
   }
-
 end
