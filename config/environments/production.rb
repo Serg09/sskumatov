@@ -100,9 +100,9 @@ Rails.application.configure do
   #
   config.action_mailer.delivery_method = :smtp
   config.action_mailer.default_url_options = { host: 'limitless-fortress-77954.herokuapp.com' }
-  config.action_mailer.default_options = {from: 'sergeyskumatov@gmail.com'}
+  config.action_mailer.default_options = {from: 'sergeyskumatov@resume.com'}
 
-
+  ActionMailer::Base.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
   # config.action_mailer.smtp_settings = {
       :address        => 'smtp.sendgrid.net',
@@ -114,5 +114,4 @@ Rails.application.configure do
       :domain         => 'herokuapp.com',
       :enable_starttls_auto => true
   }
-
 end
