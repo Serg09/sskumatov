@@ -85,6 +85,7 @@ Rails.application.configure do
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   # config.assets.compile = false
+  config.assets.initialize_on_precompile = false
 
   # Generate digests for assets URLs
   config.assets.digest = true
@@ -99,20 +100,23 @@ Rails.application.configure do
   config.action_mailer.default :charset => "utf-8"
   #
   config.action_mailer.delivery_method = :smtp
-  config.action_mailer.default_url_options = { host: 'limitless-fortress-77954.herokuapp.com' }
-  config.action_mailer.default_options = {from: 'sergeyskumatov@gmail.com'}
+  config.action_mailer.default_url_options = { host: 'www.google.com'}
+  config.action_mailer.default_options = {from: 'production@mail.com'}
 
-
+  # ActionMailer::Base.register_interceptor(SendGrid::MailInterceptor)
+  ActionMailer::Base.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
   # config.action_mailer.smtp_settings = {
       :address        => 'smtp.sendgrid.net',
       :port           => '587',
+      # :port           => '465',
       :authentication => :plain,
       :user_name      => ENV['SENDGRID_USERNAME'],
       :password       => ENV['SENDGRID_PASSWORD'],
       # :domain         => 'heroku.com',
       :domain         => 'herokuapp.com',
-      :enable_starttls_auto => true
+      :enable_starttls_auto => true,
+      # :ssl => true
   }
 
 end

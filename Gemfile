@@ -43,6 +43,8 @@ gem 'devise_zxcvbn'
 gem 'mail'
 gem 'figaro'
 
+gem 'dotenv-rails'
+
 # gem to open github from command line
 gem 'git-browse-remote'
 

@@ -16,5 +16,14 @@
 !/log/.keep
 /tmp
 .idea/
+
 # Ignore application configuration
-/config/application.yml
+ /config/application.yml
+ /config/secrets.yml
+ /.env
+ config/application.yml
+ config/secrets.yml
+.env
+
+*config/secrets.yml
+*/config/secrets.yml
