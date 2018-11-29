@@ -25,10 +25,10 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # sskumatov
 gem 'aruba'
 gem 'guard-rubocop'
-gem 'guard-rspec'
+# gem 'guard-rspec'
 gem 'guard-bundler'
-gem 'rspec-rails'
-gem 'factory_bot_rails'
+# gem 'rspec-rails'
+gem 'factory_bot_rails', :require => false
 gem 'capybara'
 gem 'faker'
 gem 'shoulda-matchers'
@@ -65,11 +65,11 @@ group :production do
 end
 
 group :development, :test do
-  # Use sqlite3 as the database for Active Record
-  gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'dotenv-rails'
+
+  # Use sqlite3 as the database for Active Record
+  gem 'sqlite3'
 end
 
 group :development do
