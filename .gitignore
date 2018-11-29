@@ -18,9 +18,9 @@
 .idea/
 
 # Ignore application configuration
-/config/application.yml
-/config/secrets.yml
-/.env
-config/application.yml
-config/secrets.yml
-.env
+ /config/application.yml
+ /config/secrets.yml
+ /.env
+ config/application.yml
+ config/secrets.yml
+ .env
