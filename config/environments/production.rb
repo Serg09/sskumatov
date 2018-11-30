@@ -103,17 +103,13 @@ Rails.application.configure do
   config.action_mailer.default_url_options = { host: 'www.google.com'}
   config.action_mailer.default_options = {from: 'production@mail.com'}
 
-  # ActionMailer::Base.register_interceptor(SendGrid::MailInterceptor)
   ActionMailer::Base.delivery_method = :smtp
   ActionMailer::Base.smtp_settings = {
-  # config.action_mailer.smtp_settings = {
       :address        => 'smtp.sendgrid.net',
       :port           => '587',
-      # :port           => '465',
       :authentication => :plain,
       :user_name      => ENV['SENDGRID_USERNAME'],
       :password       => ENV['SENDGRID_PASSWORD'],
-      # :domain         => 'heroku.com',
       :domain         => 'herokuapp.com',
       :enable_starttls_auto => true,
       # :ssl => true
