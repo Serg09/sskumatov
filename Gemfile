@@ -44,6 +44,7 @@ gem 'mail'
 gem 'figaro'
 
 gem 'dotenv-rails'
+gem 'puma'
 
 # gem to open github from command line
 gem 'git-browse-remote'
