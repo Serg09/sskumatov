@@ -348,7 +348,7 @@ DEPENDENCIES
   jquery-turbolinks
   launchy
   mail
-  pg (= 0.21)
+  pg
   rails (~> 5.2, >= 5.2.1)
   rails_12factor
   sassc-rails
