@@ -1,2 +1,2 @@
 worker: rake jobs:work
-web: gunicorn app:app --log-file=-
+web: bundle exec puma -C config/puma.rb
