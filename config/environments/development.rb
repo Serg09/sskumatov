@@ -48,9 +48,12 @@ Rails.application.configure do
   # config.action_mailer.smtp_settings = { :address => "localhost", :port => 1025 }
   config.action_mailer.default :charset => "utf-8"
   config.action_mailer.default_options = {from: 'development@mail.com'}
-
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
+  
+  ActionMailer::Base.delivery_method = :smtp
+  # config.action_mailer.delivery_method = :smpt
+  # config.action_mailer.smtp_settings = {
+  ActionMailer::Base.smtp_settings = {
+  # config.action_mailer.smtp_settings = {
       :address        => 'smtp.sendgrid.net',
       :port           => '587',
       :authentication => :plain,
