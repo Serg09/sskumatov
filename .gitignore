@@ -24,6 +24,3 @@
  config/application.yml
  config/secrets.yml
 .env
-
-*config/secrets.yml
-*/config/secrets.yml

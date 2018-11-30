@@ -59,9 +59,7 @@ Rails.application.configure do
       :authentication => :plain,
       :user_name      => ENV['SENDGRID_USERNAME_DEV'],
       :password       => ENV['SENDGRID_PASSWORD_DEV'],
-      :domain         => 'herokuapp.com',
+      :domain         => 'sendgrid.com',
       :enable_starttls_auto => true
   }
-
-
 end
