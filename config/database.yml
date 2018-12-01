@@ -25,4 +25,4 @@ test:
 production:
   <<: *default
   # database: db/production.postgresql
-  database: db/production.sqlite3
+  database: db/production.postgresql
