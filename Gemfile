@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
-ruby "2.6.1"
 
+# ruby "2.5.1"
+ruby "2.6.5"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2', '>= 5.2.1'
@@ -26,7 +27,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'aruba'
 gem 'guard-rubocop'
 # gem 'guard-rspec'
-gem 'guard-bundler'
+# gem 'guard-bundler'
+gem 'bundler'
 # gem 'rspec-rails'
 gem 'factory_bot_rails', :require => false
 gem 'capybara'
@@ -42,6 +44,7 @@ gem 'delayed_job_active_record'
 gem 'devise_zxcvbn'
 gem 'mail'
 gem 'figaro'
+gem 'sprockets', '~> 3.7.2'
 
 gem 'dotenv-rails'
 gem 'puma'
@@ -60,7 +63,8 @@ gem 'git-browse-remote'
 #
 # Make sure you add something like that to your `Gemfile`. Otherwise you will
 # get cucumber > 2 and this will fail on ruby 1.8.7
-gem 'cucumber'
+# gem 'cucumber'
+gem 'cucumber', '~> 1.3.20'
 
 group :production do
   gem 'pg'
