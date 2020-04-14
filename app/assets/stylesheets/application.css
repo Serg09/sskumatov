@@ -52,7 +52,7 @@ body
     /*css for full size background image*/
     background-color: #0d0f24;
     /*background-image: url(background_01.png); !* background image *!*/
-    background-position: 10%z 10%;
+    background-position: 10% 10%;
     background-repeat: no-repeat;
     background-attachment: fixed; /* default */
     -webkit-background-size: cover;
@@ -60,11 +60,19 @@ body
     -o-background-size: cover;
     background-size: cover;
 
+    /*text color in fields of email and password*/
     height: 123%;
-    color: #b7ebff;
+    color: #ff0003;
     text-align: center;
-    /*text-shadow: 0 1px 3px rgba(0, 22, 255, 0.95);*/
+    /*text-shadow: 0 1px 3px rgba(0, 22, 255, 0.95);*!*/
 }
+
+/*.about-me {*/
+/*    !*height: 123%;*!*/
+/*    color: #0008de;*/
+/*    !*text-align: center;*!*/
+/*    !*width: 75em*!*/
+/*}*/
 
 /* Extra markup and styles for table-esque vertical and horizontal centering */
 .site-wrapper {
@@ -142,6 +150,7 @@ body
 
 .cover {
     padding: 0 20px;
+    color: #fff;
 }
 .cover .btn-lg {
     padding: 10px 20px;

@@ -1,7 +1,8 @@
+require 'rubygems/gem_runner'
 source 'https://rubygems.org'
 
 # ruby "2.5.1"
-ruby "2.6.5"
+ruby "2.7.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2', '>= 5.2.1'
@@ -28,7 +29,16 @@ gem 'aruba'
 gem 'guard-rubocop'
 # gem 'guard-rspec'
 # gem 'guard-bundler'
-gem 'bundler'
+# BUNDLER DEPENDENCIES START
+# source 'https://rubygems.org'
+gem 'nokogiri'
+gem 'rack', '~> 2.0.1'
+gem 'rspec'
+# BUNDLER DEPENDENCIES END
+
+# gem 'bundler'
+
+
 # gem 'rspec-rails'
 gem 'factory_bot_rails', :require => false
 gem 'capybara'
