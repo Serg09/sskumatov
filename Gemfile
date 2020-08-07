@@ -5,7 +5,8 @@ source 'https://rubygems.org'
 ruby "2.7.0"
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '~> 5.2', '>= 5.2.1'
+# gem 'rails', '~> 5.2', '>= 5.2.1'
+gem 'rails', '6.0.2.2'
 # Use SCSS for stylesheets
 gem 'sassc-rails'
 # Use Uglifier as compressor for JavaScript assets
@@ -74,7 +75,8 @@ gem 'git-browse-remote'
 # Make sure you add something like that to your `Gemfile`. Otherwise you will
 # get cucumber > 2 and this will fail on ruby 1.8.7
 # gem 'cucumber'
-gem 'cucumber', '~> 1.3.20'
+# gem 'cucumber', '~> 1.3.20'
+gem 'cucumber'
 
 group :production do
   gem 'pg'
