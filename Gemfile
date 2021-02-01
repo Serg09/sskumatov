@@ -33,7 +33,7 @@ gem 'guard-rubocop'
 # BUNDLER DEPENDENCIES START
 # source 'https://rubygems.org'
 gem 'nokogiri'
-gem 'rack', '~> 2.0.1'
+gem 'rack', '~> 2.1.4'
 gem 'rspec'
 # BUNDLER DEPENDENCIES END
 
